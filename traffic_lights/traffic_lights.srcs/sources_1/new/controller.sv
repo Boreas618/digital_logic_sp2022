@@ -12,14 +12,14 @@ module controller(
     );
 
     logic [1:0] state;
-    logic [7:0] count;
+    logic [7:0] count;   // Comparing [count] with [sec15] or [sec45] -> a timer
 
     parameter state1 = 2'b00;
     parameter state2 = 2'b01;
     parameter state3 = 2'b10;
     parameter state4 = 2'b11;
 
-    parameter sec15 = 45; //15s = 0.33s * 3 * 15 = 0.33s * 45 That's 45 cycles
+    parameter sec15 = 45; //15s = 0.33s * 3 * 15 = 0.33s * 45. It means 45 posedges = 15s
     parameter sec45 = 135;
 
     always_ff @(posedge clk_3hz, posedge clr)

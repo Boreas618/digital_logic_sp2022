@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sun Nov 27 21:15:40 2022
+# Process ID: 13792
+# Current directory: C:/Users/33800/Desktop/digital_logic/rotating_block/rotating_block.runs/impl_1
+# Command line: vivado.exe -log rotating_block_top.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source rotating_block_top.tcl -notrace
+# Log file: C:/Users/33800/Desktop/digital_logic/rotating_block/rotating_block.runs/impl_1/rotating_block_top.vdi
+# Journal file: C:/Users/33800/Desktop/digital_logic/rotating_block/rotating_block.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source rotating_block_top.tcl -notrace
